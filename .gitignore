@@ -1,80 +1,67 @@
-.bundle
-db/*.sqlite3
-log/*.log
-*.log
-tmp/**/*
-tmp/*
-*.swp
+# Editor temporary files
+.#*
+*\#*\#
+[#]*#
 *~
-#mac autosaving file
-.DS_Store
-*.py[co]
-
-# Installer logs
-pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-test.log
-.noseids
-*.xlsx
-
-# Compiled python files
-*.py[co]
-
-# Packages
-*.egg
-.eggs/*
-*.egg-info
-dist
-build
-eggs
-cover
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-coverage.xml
-htmlcov
-nosetests.xml
-
-# C Extensions
-*.o
-*.so
-*.out
-# git add -f if needed
-*.c
-
-# Vim
+*$
+*.bak
+*.log
 *.swp
-*.swo
-
-# Built documentation
-docs/_build/*
-
-# Un-tarred example data input. We should only commit the tarball.
-tests/resources/example_data/*
-
-# database of vbench
-benchmarks.db
-
-# Vagrant temp folder
-.vagrant
-
-# Intellij IDE temp project files
+*.pdb
 .project
-zipline.iml
-
-# PyCharm custom settings
+.pydevproject
 .idea
+.settings
+.vagrant
+.noseids
+.ipynb_checkpoints
+.cache/
+.vscode/
+*.csv
+*.png
+*.jpg
+*.htm
+*.html
+*.js
+*.css
+*.js.min
+*.zip
+*.tar
+*.gz
+*.rar
+*.ttf
+input/
+output/
+logs/
+*.log
+core.*
 
-TAGS
+# Compiled source
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.py[ocd]
+*.so
 
-.ipynb_checkpoints/
+# Python files
+build
+doc/_build
+dist
+*.egg-info
+*.eggs
+*.whl
 
+# Testing tools
+.coverage
+coverage.xml
+coverage_html_report
+
+# OS files
+.directory
 .gdb_history
-
-*.dSYM/
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
